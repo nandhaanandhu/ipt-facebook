@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.916">
+    <testcase classname="login the facebook account" name="Launch the facebook account" time="9.796">
+        <system-out><![CDATA[Given enter the url.........................................................passed
+When user can get the text in the home page.................................passed
+When user enter the username................................................passed
+And user enter the passwrd..................................................passed
+Then user click the login button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="login the facebook account" name="next page of the facebook" time="2.917">
+        <system-out><![CDATA[When user take a screenshot of the page.....................................passed
+Then user click the back button to go to main page..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="login the facebook account" name="user create a new account" time="38.044">
+        <system-out><![CDATA[Given user click the create account button..................................passed
+When user enter the first name..............................................passed
+When user enter the last name...............................................passed
+When user enter the mailid..................................................passed
+When user enter the re-entry emailid........................................passed
+When user enter the password................................................passed
+When user select the date in day............................................passed
+When user select the month..................................................passed
+When user select the year...................................................passed
+When user select the gender.................................................passed
+When user click the signup button...........................................passed
+Then user take a screenshots of the page....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
